@@ -10,9 +10,9 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-extension Array where Element: UIButton {
+public extension Array where Element: UIButton {
 
-    func selectionObservable() -> Observable<Int> {
+    public func selectionObservable() -> Observable<Int> {
 
         let observables = self.map { button -> Observable<Int> in
             // map button taps to arrays of selected button indices
