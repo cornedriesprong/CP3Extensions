@@ -8,13 +8,13 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
 
-    func buttons() -> [UIButton] {
+    public func buttons() -> [UIButton] {
         return subviews(ofType: UIButton.self)
     }
 
-    func subviews<T: UIView>(ofType type: T.Type) -> [T] {
+    public func subviews<T: UIView>(ofType type: T.Type) -> [T] {
 
         var subviews = [T]()
 
