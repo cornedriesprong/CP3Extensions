@@ -15,6 +15,7 @@
 		41BA1CC821078DD600795F6C /* CGPoint+deltaLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BA1CC721078DD500795F6C /* CGPoint+deltaLocation.swift */; };
 		41BA1CCA21078E3600795F6C /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BA1CC921078E3600795F6C /* UIColor+hex.swift */; };
 		41BA1CCC21078E7400795F6C /* UIView+subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BA1CCB21078E7400795F6C /* UIView+subviews.swift */; };
+		41BA1CD22108C9D500795F6C /* String+substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BA1CD12108C9D500795F6C /* String+substring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		41BA1CC721078DD500795F6C /* CGPoint+deltaLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+deltaLocation.swift"; sourceTree = "<group>"; };
 		41BA1CC921078E3600795F6C /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
 		41BA1CCB21078E7400795F6C /* UIView+subviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+subviews.swift"; sourceTree = "<group>"; };
+		41BA1CD12108C9D500795F6C /* String+substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+substring.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				41BA1CAA210731D100795F6C /* Array+selectionObservable.swift */,
 				41BA1CC521078DB100795F6C /* CALayer+addShadow.swift */,
 				41BA1CC721078DD500795F6C /* CGPoint+deltaLocation.swift */,
+				41BA1CD12108C9D500795F6C /* String+substring.swift */,
 				41BA1CC921078E3600795F6C /* UIColor+hex.swift */,
 				41BA1CCB21078E7400795F6C /* UIView+subviews.swift */,
 				41BA1C942107317600795F6C /* Info.plist */,
@@ -212,6 +215,7 @@
 			files = (
 				41BA1CAB210731D100795F6C /* Array+selectionObservable.swift in Sources */,
 				41BA1CCA21078E3600795F6C /* UIColor+hex.swift in Sources */,
+				41BA1CD22108C9D500795F6C /* String+substring.swift in Sources */,
 				41BA1CC821078DD600795F6C /* CGPoint+deltaLocation.swift in Sources */,
 				41BA1CCC21078E7400795F6C /* UIView+subviews.swift in Sources */,
 				41BA1CC621078DB100795F6C /* CALayer+addShadow.swift in Sources */,
