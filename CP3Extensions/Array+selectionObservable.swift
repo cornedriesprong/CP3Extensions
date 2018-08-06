@@ -16,13 +16,13 @@ public extension Array where Element: UIButton {
 
         let observables = self.map { button -> Observable<Int> in
 
-            // don't trigger selection if button is already selected
-            guard !button.isSelected else {
-                return
-            }
-
             // map button taps to arrays of selected button indices
-            return button.rx.tap.asObservable().map {
+            return button.rx.tap.asObservable().flatMap {
+
+                // don't trigger selection if button is already selected
+                guard !button.isSelected else {
+                    return
+                }
 
                 self.forEach { $0.isSelected = false }
                 button.isSelected = !button.isSelected
