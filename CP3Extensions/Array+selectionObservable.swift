@@ -19,10 +19,6 @@ public extension Array where Element: UIButton {
             // map button taps to arrays of selected button indices
             return button.rx.tap.asObservable().map {
 
-                guard !button.isSelected else {
-                    return self.enumerated().filter { $0.1.isSelected }.map { $0.0 }[0]
-                }
-
                 self.forEach { $0.isSelected = false }
                 button.isSelected = !button.isSelected
                 return self.enumerated().filter { $0.1.isSelected }.map { $0.0 }[0]
