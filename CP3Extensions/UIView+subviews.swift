@@ -30,7 +30,7 @@ public extension UIView {
         return subviews
     }
 
-    var screenshot: UIImage {
+    public var screenshot: UIImage {
 
         UIGraphicsBeginImageContextWithOptions(bounds.size, true, 0.0)
         if let tableView = self as? UITableView {
@@ -47,7 +47,7 @@ public extension UIView {
 
 public protocol UIViewLoading {}
 
-public extension UIView: UIViewLoading {}
+extension UIView: UIViewLoading {}
 
 public extension UIViewLoading where Self: UIView {
 
